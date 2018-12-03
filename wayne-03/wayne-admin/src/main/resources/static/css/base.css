@@ -1,0 +1,15 @@
+/*全局界面样式调整*/
+.frame-navbar {
+    position: fixed;
+    top: 0;
+    right: 15px;
+}
+
+/*全局的样式组件*/
+.readonly-bg {
+    background-color: #eee;
+}
+
+.frame-card .layui-card-body{
+    padding: 0!important;
+}

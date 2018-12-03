@@ -1,0 +1,396 @@
+﻿/*Rounded Corners*/
+/*top-left rounded Corners*/
+.jqx-rc-tl {
+    -moz-border-radius-topleft: 3px;
+    -webkit-border-top-left-radius: 3px;
+    border-top-left-radius: 3px;
+}
+
+/*top-right rounded Corners*/
+.jqx-rc-tr {
+    -moz-border-radius-topright: 3px;
+    -webkit-border-top-right-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+/*bottom-left rounded Corners*/
+.jqx-rc-bl {
+    -moz-border-radius-bottomleft: 3px;
+    -webkit-border-bottom-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+/*bottom-right rounded Corners*/
+.jqx-rc-br {
+    -moz-border-radius-bottomright: 3px;
+    -webkit-border-bottom-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+/*top rounded Corners*/
+.jqx-rc-t {
+    -moz-border-radius-topleft: 3px;
+    -webkit-border-top-left-radius: 3px;
+    border-top-left-radius: 3px;
+    -moz-border-radius-topright: 3px;
+    -webkit-border-top-right-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+/*bottom rounded Corners*/
+.jqx-rc-b {
+    -moz-border-radius-bottomleft: 3px;
+    -webkit-border-bottom-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    -moz-border-radius-bottomright: 3px;
+    -webkit-border-bottom-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+/*right rounded Corners*/
+.jqx-rc-r {
+    -moz-border-radius-topright: 3px;
+    -webkit-border-top-right-radius: 3px;
+    border-top-right-radius: 3px;
+    -moz-border-radius-bottomright: 3px;
+    -webkit-border-bottom-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+/*left rounded Corners*/
+.jqx-rc-l {
+    -moz-border-radius-topleft: 3px;
+    -webkit-border-top-left-radius: 3px;
+    border-top-left-radius: 3px;
+    -moz-border-radius-bottomleft: 3px;
+    -webkit-border-bottom-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+/*all rounded Corners*/
+.jqx-rc-all {
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+
+/*reset rounded corners*/
+.jqx-rc-reset {
+    -moz-border-radius: 0px !important;
+    -webkit-border-radius: 0px !important;
+    border-radius: 0px !important;
+}
+
+/*Reset Style*/
+.jqx-reset {
+    padding: 0;
+    margin: 0;
+    border: none;
+    background: transparent;
+    outline: none;
+    box-sizing: content-box;
+}
+
+.jqx-clear {
+    align: left;
+    valign: top;
+    left: 0px;
+    top: 0px;
+    -webkit-appearance: none !important;
+    outline: none !important;
+    padding: 0px;
+    margin: 0px;
+}
+
+.jqx-popup {
+    box-sizing: content-box;
+}
+
+.jqx-position-reset {
+    position: static !important;
+}
+
+.jqx-border-reset {
+    border: none !important;
+}
+
+.jqx-overflow-hidden {
+    overflow: hidden !important;
+}
+
+.jqx-position-relative {
+    position: relative !important;
+}
+
+.jqx-position-absolute {
+    position: absolute !important;
+}
+
+.jqx-max-size {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.jqx-background-reset {
+    background: transparent !important;
+}
+
+/*Disable browser selection*/
+.jqx-disableselect {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.jqx-enableselect {
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: all;
+}
+
+.jqx-hideborder {
+    border: none !important;
+}
+
+.jqx-hidescrollbars {
+    overflow: hidden !important;
+}
+
+/* jqxSplitter */
+.jqx-splitter {
+    overflow: hidden;
+    border: 1px solid transparent;
+    position: relative;
+}
+
+/* Split bar's class when the jqxSplitter is with horizontal orientation */
+.jqx-splitter-splitbar-vertical {
+    border: 1px solid transparent;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    cursor: e-resize;
+    cursor: col-resize;
+    position: absolute;
+}
+
+/* Split bar's mouse over state */
+.jqx-splitter-splitbar-hover {
+    background-color: transparent;
+}
+
+/* Split bar's class when the jqxSplitter is with horizontal orientation. */
+.jqx-splitter-splitbar-horizontal {
+    position: absolute;
+    border: 1px solid transparent;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    cursor: n-resize;
+    cursor: row-resize;
+}
+
+/* This class is applied to the splitter when it's dragged to it's max left/right boundary */
+.jqx-splitter-splitbar-invalid {
+    background: #FF0000 !important;
+}
+
+/* This class is added to split bar's collapse button when the splitter is with vectical orientation. */
+.jqx-splitter-collapse-button-horizontal {
+    cursor: pointer;
+    width: 45px;
+    height: 5px;
+}
+
+/* This class is added to split bar's collapse button when the splitter is with horizontal orientation. */
+.jqx-splitter-collapse-button-vertical {
+    cursor: pointer;
+    width: 5px;
+    height: 45px;
+}
+
+/* This class is added when the user disable the splitter. */
+.jqx-splitter-splitbar-collapsed {
+    cursor: default;
+}
+
+/* Applied to the jqxSplitter panels. */
+.jqx-splitter-panel {
+    border: none;
+    outline: none;
+    position: absolute;
+    overflow: hidden;
+}
+
+/* This class is added to a nested splitter.*/
+.jqx-splitter-nested, .jqx-splitter-panel-nested {
+    border: none;
+    overflow: hidden;
+}
+
+.jqx-draggable {
+
+}
+
+.jqx-draggable-dragging {
+    border: 0px solid black;
+}
+
+.jqx-draggable-disabled {
+    cursor: default;
+}
+
+.jqx-validator-hint {
+    height: 18px;
+    width: auto;
+    display: inline-block;
+    cursor: pointer;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 1px solid #6E0000;
+    background-color: #942724;
+    color: #fff;
+    z-index: 99999;
+    white-space: nowrap;
+}
+
+.jqx-validator-hint-arrow {
+    z-index: 99999;
+    height: 9px;
+    width: 9px;
+    padding: 0px;
+    margin: 0px;
+    background-color: transparent;
+}
+
+.jqx-validator-error-label {
+    color: #dd4b39;
+    vertical-align: top;
+    text-align: left;
+    display: block;
+    cursor: default;
+    line-height: 17px;
+}
+
+.jqx-validator-error-element {
+    border-color: #dd4b39 !important;
+}
+
+/*applied to all widgets*/
+.jqx-widget {
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    -ms-touch-action: none;
+    zoom: 1 !important;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+    -webkit-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+    -webkit-appearance: none;
+    -webkit-background-clip: padding-box;
+    direction: ltr !important;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.jqx-item {
+    -ms-touch-action: none;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    color: inherit;
+    -webkit-text-size-adjust: none;
+}
+
+/*applied to containers to set a background and border color. Tabs, NavigationBar, Calendar content.*/
+.jqx-widget-content {
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    -ms-touch-action: none;
+    -moz-background-clip: padding;
+    -webkit-text-size-adjust: none;
+    background-clip: padding-box;
+    -webkit-background-clip: padding-box;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    border-color: #c7c7c7;
+    background: #fff;
+}
+
+/*applied to header areas. Tabs, Menu, Window, Calendar.*/
+.jqx-widget-header {
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    -ms-touch-action: none;
+    -moz-background-clip: padding;
+    -webkit-text-size-adjust: none;
+    background-clip: padding-box;
+    -webkit-background-clip: padding-box;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    border-color: #c5c5c5;
+    background: #e8e8e8;
+}
+
+.jqx-fill-state-normal {
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    -ms-touch-action: none;
+    border-color: #aaa;
+    background: #efefef;
+}
+
+.jqx-fill-state-hover {
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    border-color: #999;
+    background: #e8e8e8;
+}
+
+.jqx-fill-state-pressed {
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    border-color: #999;
+    background: #d1d1d1;
+}
+
+.jqx-fill-state-focus {
+    border-color: #555;
+}
+
+.jqx-fill-state-disabled {
+    cursor: default;
+    opacity: .55;
+    filter: Alpha(Opacity=45);
+}
+
+.jqx-fill-state-normal td, .jqx-fill-state-hover td, .jqx-fill-state-pressed td, .jqx-fill-state-disabled td, .jqx-fill-state-focus td, .jqx-widget td, .jqx-widget-content td, .jqx-widget-header td {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.jqx-widget .jqx-grid-cell, .jqx-widget .jqx-grid-column-header, .jqx-widget .jqx-grid-group-cell {
+    border-color: #aaa;
+}
+
+.jqx-widget .jqx-grid-column-menubutton, .jqx-widget .jqx-grid-column-sortascbutton, .jqx-widget .jqx-grid-column-sortdescbutton, .jqx-widget .jqx-grid-column-filterbutton {
+    background-color: transparent;
+    border-color: #aaa;
+}
+
+/*applied to the tab's title when the tab is selected and the jqxTab's position property is set to 'bottom' .*/
+.jqx-tabs-title-selected-bottom {
+    border-color: #aaa;
+    border-top: 1px solid #fff;
+    background-color: #fff;
+}
+
+/*applied to the tab's selection tracker when the jqxTab's position property is set to 'top'.*/
+.jqx-tabs-selection-tracker-top {
+    border-color: #aaa;
+    border-bottom: 1px solid #fff;
+}
+
+/*applied to the tab's selection tracker when the jqxTab's position property is set to 'bottom'.*/
+.jqx-tabs-selection-tracker-bottom {
+    border-color: #aaa;
+    border-top: 1px solid #fff;
+}
