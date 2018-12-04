@@ -1,7 +1,8 @@
-package com.wayne.admin.controller;
+package com.wayne.frame.admin.controller;
 
-import com.wayne.admin.common.form.AdminLoginForm;
-import com.wayne.admin.service.AdminLoginService;
+import com.wayne.frame.admin.common.form.AdminLoginForm;
+import com.wayne.frame.admin.service.AdminLoginService;
+import com.wayne.frame.common.dto.ResponsBean;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
@@ -26,9 +27,8 @@ public class LoginController {
     // 用户登录
     @PostMapping("/login.do")
     @ResponseBody
-    public String login(@RequestBody AdminLoginForm form) {
-        adminLoginService.login(form);
-        return null;
+    public ResponsBean login(@RequestBody AdminLoginForm form) {
+        return adminLoginService.login(form);
     }
 
 

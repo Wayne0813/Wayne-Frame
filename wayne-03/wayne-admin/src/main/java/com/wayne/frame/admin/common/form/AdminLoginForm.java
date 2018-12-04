@@ -1,4 +1,4 @@
-package com.wayne.admin.common.form;
+package com.wayne.frame.admin.common.form;
 
 import javax.validation.constraints.NotBlank;
 
